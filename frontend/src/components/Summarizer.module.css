@@ -1,0 +1,113 @@
+.formContainer {
+    margin-top: 1.5rem;
+}
+
+.textareaGroup {
+    margin-bottom: 1.5rem;
+}
+
+.textareaGroup label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.25rem;
+}
+
+.textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.generateButton {
+    width: 100%;
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.generateButton:hover {
+    background-color: #1d4ed8;
+}
+
+.generateButton:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}
+
+.notesSection {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.notesSection h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.prose {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    line-height: 1.6;
+}
+
+.prose h3 {
+    font-weight: bold;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+.prose ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.quizButtonContainer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.quizButton {
+    width: auto;
+    padding: 0.75rem 1.5rem;
+    background-color: #10b981;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quizButton:hover {
+    background-color: #059669;
+}
+
+.quizButton:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}

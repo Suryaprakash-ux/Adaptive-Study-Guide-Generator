@@ -44,40 +44,18 @@ FlowChart TD
 **This adaptive pipeline ensures continuous improvement in understanding.**
 
 **Tech Stack**
+## 🛠 Tech Stack  
 
--> Component	Technology Used
--> Frontend	React.js, HTML5, CSS3, JavaScript
--> Backend	Flask (Python)
--> AI / NLP	Hugging Face Transformers, SpaCy, NLTK, OpenAI/Google APIs
--> Database	MongoDB / Firebase (if used)
--> API Integration	YouTube Transcript API, Custom Flask APIs
--> Version Control	Git, GitHub
--> Deployment	GitHub / Heroku / Render
+| **Component**       | **Technology Used**                                       |
+|---------------------|-----------------------------------------------------------|
+| **Frontend**        | React.js, HTML5, CSS3, JavaScript                         |
+| **Backend**         | Flask (Python)                                            |
+| **AI / NLP**        | Hugging Face Transformers, SpaCy, NLTK, OpenAI/Google APIs|
+| **Database**        | MongoDB / Firebase *(if used)*                            |
+| **API Integration** | YouTube Transcript API, Custom Flask APIs                 |
+| **Version Control** | Git, GitHub                                               |
+| **Deployment**      | GitHub / Heroku / Render                                  |
 
-**📂 Project Structure**
-Adaptive-Study-Guide-Generator/
-│
-├── frontend/ # React.js codebase
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Different pages for the application
-│ └── styles/ # Styling files (CSS / Tailwind / SCSS)
-│
-├── backend/ # Flask backend codebase
-│ ├── routes/ # API route handlers
-│ ├── models/ # Database models (if applicable)
-│ ├── services/ # Business logic and helper functions
-│ └── app.py # Flask main entry point
-│
-├── ai_model/ # NLP models & pipelines
-│ ├── text_extraction.py # Extracts transcript from YouTube video
-│ ├── summarizer.py # Summarizes extracted text
-│ ├── quiz_generator.py # Generates adaptive quizzes
-│ └── adaptive_logic.py # Handles re-summarization & retry mechanism
-│
-├── docs/ # Documentation files
-│
-├── README.md # Project Documentation
-└── requirements.txt # Project dependencies
 
 **Installation & Setup**
 

@@ -126,12 +126,13 @@ If score < 50% →
 
 **Team Members**
 
-      Names                  Role	                             Contributions
-      
-Bhavana Mahathi       Video-to-Text Extraction	       Built module for transcript extraction
-Charan Teja           Summarization	                   Developed summarization and explanation module
-Surya Prakash	        Quiz Generation	                 Created adaptive quiz generation module
-Pavan Ganesh	        Adaptive Feedback	               Implemented re-summarization and retry mechanism
+| **Name**         | **Role**                   | **Contributions**                               |
+|------------------|----------------------------|--------------------------------------------------|
+| Bhavana Mahathi  | Video-to-Text Extraction   | Built module for transcript extraction           |
+| Charan Teja      | Summarization              | Developed summarization and explanation module   |
+| Surya Prakash    | Quiz Generation            | Created adaptive quiz generation module          |
+| Pavan Ganesh     | Adaptive Feedback          | Implemented re-summarization and retry mechanism |
+
 
 **Future Enhancements**
 

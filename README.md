@@ -46,16 +46,27 @@ This ensures a personalized, adaptive, and effective learning experience.
 
 
 **Project Workflow**
+
 FlowChart TD
+    
     A[User Inputs YouTube Video URL] --> B[Video-to-Text Extraction]
+    
     B --> C[Text Summarization & Explanation]
+    
     C --> D[Quiz Generation]
+    
     D --> E[User Takes Quiz]
+
     E --> F{Score >= 50%?}
+    
     F -->|Yes| G[Show Results & Finish]
+    
     F -->|No| H[Re-summarize with Easier Notes]
+    
     H --> I[Regenerate Quiz]
+    
     I --> E
+
 
 **This adaptive pipeline ensures continuous improvement in understanding.**
 

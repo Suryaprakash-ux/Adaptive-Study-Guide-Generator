@@ -57,26 +57,27 @@ FlowChart TD
 **📂 Project Structure**
 Adaptive-Study-Guide-Generator/
 │
-├── frontend/                # React.js codebase
-│   ├── components/
-│   ├── pages/
-│   └── styles/
+├── frontend/ # React.js codebase
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Different pages for the application
+│ └── styles/ # Styling files (CSS / Tailwind / SCSS)
 │
-├── backend/                 # Flask backend codebase
-│   ├── routes/
-│   ├── models/
-│   ├── services/
-│   └── app.py
+├── backend/ # Flask backend codebase
+│ ├── routes/ # API route handlers
+│ ├── models/ # Database models (if applicable)
+│ ├── services/ # Business logic and helper functions
+│ └── app.py # Flask main entry point
 │
-├── ai_model/               # NLP models & pipelines
-│   ├── text_extraction.py
-│   ├── summarizer.py
-│   ├── quiz_generator.py
-│   └── adaptive_logic.py
+├── ai_model/ # NLP models & pipelines
+│ ├── text_extraction.py # Extracts transcript from YouTube video
+│ ├── summarizer.py # Summarizes extracted text
+│ ├── quiz_generator.py # Generates adaptive quizzes
+│ └── adaptive_logic.py # Handles re-summarization & retry mechanism
 │
-├── docs/                  # Documentation files
-├── README.md              # Project Documentation
-└── requirements.txt       # Dependencies
+├── docs/ # Documentation files
+│
+├── README.md # Project Documentation
+└── requirements.txt # Project dependencies
 
 **Installation & Setup**
 

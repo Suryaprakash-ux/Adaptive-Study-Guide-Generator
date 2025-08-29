@@ -37,12 +37,12 @@ This ensures a personalized, adaptive, and effective learning experience.
 - **Video-to-Text Extraction** → Extracts text from YouTube videos.  
 - **Automatic Summarization** → Uses NLP to produce concise, easy-to-read notes.  
 - **Simplified Explanations** → Generates easier summaries for struggling learners.  
-- **Quiz Generation** → Creates **5–10 adaptive questions** from summarized content.  
-- **Performance Feedback** → Re-summarizes content if the score is **below 50%**.  
-- **Adaptive Learning** → Ensures learners gain **mastery** before moving ahead.  
-- **API-driven Integration** → Uses **Flask REST APIs** for smooth communication between **frontend & backend**.  
-- **Multi-language Support** → Works seamlessly on videos in **different languages**.  
-- **User-friendly UI** → Built using **React.js** for an engaging and seamless experience.  
+- **Quiz Generation** → Creates 5–10 adaptive questions from summarized content.  
+- **Performance Feedback** → Re-summarizes content if the score is below 50%. 
+- **Adaptive Learning** → Ensures learners gain mastery before moving ahead.  
+- **API-driven Integration** → Uses Flask REST APIs for smooth communication between frontend & backend.  
+- **Multi-language Support** → Works seamlessly on videos in different languages.  
+- **User-friendly UI** → Built using React.js for an engaging and seamless experience.  
 
 
 **Project Workflow**
@@ -71,7 +71,6 @@ FlowChart TD
 **This adaptive pipeline ensures continuous improvement in understanding.**
 
 **Tech Stack**
-## 🛠 Tech Stack  
 
 | **Component**       | **Technology Used**                                       |
 |---------------------|-----------------------------------------------------------|
@@ -113,11 +112,14 @@ Flask REST APIs → Handles backend requests between frontend and AI modules.
 NLP Libraries (Hugging Face, SpaCy, NLTK) → Summarization, explanation, and quiz generation.
 
 **Modules & Responsibilities**
-Module	Owner	Responsibility
-Video-to-Text Extraction	Person 1	Extracts transcript from YouTube video URLs
-Text Summarization & Explanation	Person 2	Summarizes content & prepares simplified explanations
-Quiz Generation	You	Generates 5–10 adaptive quiz questions (MCQs & True/False)
-Adaptive Learning & Feedback	Person 4	Re-summarizes text & regenerates quizzes based on user performance
+
+| **Module**               | **Owner**       | **Responsibility**                               |
+| ------------------------ | --------------- | ------------------------------------------------ |
+| Video-to-Text Extraction | Bhavana Mahathi | Built module for transcript extraction           |
+| Text Summarization       | Charan Teja     | Developed summarization and explanation module   |
+| Quiz Generation          | Surya Prakash   | Created adaptive quiz generation module          |
+| Adaptive Feedback        | Pavan Ganesh    | Implemented re-summarization and retry mechanism |
+
 
 **Adaptive Learning Logic**
 
@@ -143,9 +145,13 @@ If score < 50% →
 **Future Enhancements**
 
 🔹 Add voice-based quizzes for interactive learning.
+
 🔹 Use advanced LLMs for better question quality.
+
 🔹 Support PDF/Document uploads in addition to YouTube links.
+
 🔹 Implement user dashboards for tracking progress.
+
 🔹 Multi-language text-to-speech for accessibility.
 
 **License**

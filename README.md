@@ -3,13 +3,23 @@
 AI-powered personalized learning platform that extracts educational content from YouTube videos, summarizes it intelligently, explains it in a simplified manner, and generates adaptive quizzes to enhance student learning.
 
 **Project Overview**
+The Adaptive Study Guide Generator is an AI-driven e-learning platform designed to help learners understand topics from YouTube videos more effectively.
 
-*Adaptive Study Guide Generator is an AI-driven e-learning platform designed to help learners understand topics from YouTube videos more effectively.The system takes a YouTube video URL (any supported language).
-*Extracts text from the video using advanced speech-to-text techniques.
-*Summarizes the content into concise, structured notes using NLP techniques.Explains the content in a simplified and learner-friendly way.
-*Generates quizzes with 5–10 MCQs and True/False questions to test knowledge.
-*If the learner scores below 50%, the system re-summarizes the topic into an even simpler explanation and regenerates the quiz.Repeats until the learner achieves mastery.
-*This ensures a personalized, adaptive, and effective learning experience.
+Takes a YouTube video URL (supports multiple languages).
+
+Extracts text using advanced speech-to-text techniques.
+
+Summarizes content into concise, structured notes using NLP models.
+
+Explains content in a learner-friendly way.
+
+Generates quizzes with 5–10 MCQs and True/False questions.
+
+If a learner scores below 50%, the system re-summarizes the topic in simpler terms and regenerates the quiz.
+
+The process repeats until the learner achieves mastery.
+
+This ensures a personalized, adaptive, and effective learning experience.
 
 **Objectives**
 1)Automate text extraction and summarization from video content.

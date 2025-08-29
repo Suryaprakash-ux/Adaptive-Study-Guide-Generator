@@ -19,15 +19,16 @@ AI-powered personalized learning platform that extracts educational content from
 
 **Features**
 
-i) Video-to-Text Extraction → Extracts text from YouTube videos.
-ii) Automatic Summarization → Uses NLP to produce concise, easy-to-read notes.
-iii) Simplified Explanations → Generates easier summaries for struggling learners.
-iv) Quiz Generation → Creates 5–10 adaptive questions from summarized content.
-v) Performance Feedback → Re-summarizes content if score < 50%.
-vi) Adaptive Learning → Ensures learner gains mastery before moving ahead.
-vii) API-driven Integration → Uses Flask REST APIs for smooth communication between frontend & backend.
-viii) Multi-language Support → Works on videos in different languages.
-ix) User-friendly UI → Built using React.js for seamless user experience.
+- **Video-to-Text Extraction** → Extracts text from YouTube videos.  
+- **Automatic Summarization** → Uses NLP to produce concise, easy-to-read notes.  
+- **Simplified Explanations** → Generates easier summaries for struggling learners.  
+- **Quiz Generation** → Creates **5–10 adaptive questions** from summarized content.  
+- **Performance Feedback** → Re-summarizes content if the score is **below 50%**.  
+- **Adaptive Learning** → Ensures learners gain **mastery** before moving ahead.  
+- **API-driven Integration** → Uses **Flask REST APIs** for smooth communication between **frontend & backend**.  
+- **Multi-language Support** → Works seamlessly on videos in **different languages**.  
+- **User-friendly UI** → Built using **React.js** for an engaging and seamless experience.  
+
 
 **Project Workflow**
 FlowChart TD
